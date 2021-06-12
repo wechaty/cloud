@@ -1,0 +1,24 @@
+name: Kind
+on: [push, pull_request]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Linting
+        run: |
+          make install
+          make lint
+  kind:
+    needs: lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: engineerd/setup-kind@v0.5.0
+      - name: Testing
+        run: |
+          kubectl cluster-info
+          kubectl get pods -n kube-system
+          echo "current-context:" $(kubectl config current-context)
+          echo "environment-kubeconfig:" ${KUBECONFIG}
