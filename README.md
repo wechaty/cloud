@@ -2,6 +2,10 @@
 
 Microservices orchestrating for Wechaty
 
+![Wechaty Cloud](docs/images/wechaty-cloud.png)
+
+> Image source: [Deploy AI Models as Microservice, Mallesh Murugesan, February 12, 2019](https://abeyon.com/deploy-ai-models-as-microservice/)
+
 ## Resources
 
 ### Project repos
@@ -49,7 +53,7 @@ Microservices orchestrating for Wechaty
 
 ## Author
 
-[Huan](https://github.com/huan) [(李卓桓)](http://linkedin.com/in/zixia), [Google Cloud Professional Data Engineer](https://www.credential.net/d64187a5-55c9-45f5-850f-a46703a82cef)
+[Huan](https://github.com/huan) [(李卓桓)](http://linkedin.com/in/zixia), [Google Cloud Professional Data Engineer](https://www.credential.net/d64187a5-55c9-45f5-850f-a46703a82cef), zixia@zixia.net
 
 [![Profile of Huan LI (李卓桓) on StackOverflow](https://stackoverflow.com/users/flair/1123955.png)](https://stackoverflow.com/users/1123955/huan)
 
