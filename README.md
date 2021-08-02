@@ -22,6 +22,10 @@ Microservices orchestrating for Wechaty
 1. [Introduction to Kubernetes patterns](https://www.redhat.com/en/topics/cloud-native-apps/introduction-to-kubernetes-patterns)
     1. [Book: Kubernetes Patterns - Reusable Elements for Designing Cloud-Native Applications](https://k8spatterns.io/)
 
+### Server Resiliency Engineering
+
+1. [Building for Resiliency and Scale in the Cloud - Scott Allen](https://www.youtube.com/watch?v=SFLu6jZWXGs)
+
 ### Tutorials
 
 1. [Creating event-driven microservices: the why, how and what by Andrew Schofield](https://www.youtube.com/watch?v=ksRCq0BJef8)
